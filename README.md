@@ -1,2 +1,1 @@
-# python
-学习python
+## python
