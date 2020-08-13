@@ -19,16 +19,16 @@
 # 分割线：
 ***
 # 网址链接
-这是一个链接[百度网站](https://www.baidu.com)  <------  这是一个链接\[百度网站\]\(https://www.baidu.com\)
+这是一个链接[百度网站](https://www.baidu.com)  <------  这是一个链接\[百度网站\]\(https://www.baidu.com)
 # 图片
-![图片名字](https://www.zybuluo.com/static/img/logo.png)  <------  \!\[图片名字\]\(https://www.zybuluo.com/static/img/logo.png\)
+![图片名字](https://www.zybuluo.com/static/img/logo.png)  <------  \!\[图片名字\]\(https://www.zybuluo.com/static/img/logo.png)
 # 代码
-```python
+```python  <------  \`\`\`python
 import cv2
 a = cv2.imread()
 cv2.show()
-```
+```  <------  \`\`\`
 # 表格
-|左对齐|居中对齐|右对齐|
+|左对齐|居中对齐|右对齐| <------  \|\:\-\-\|\:\-\-\:\|\-\-\:\|
 |:----|:-----:|----:|
 |单元格|单元格  |单元格|
