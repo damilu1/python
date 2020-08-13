@@ -19,9 +19,9 @@
 # 分割线：
 ***
 # 网址链接
-这是一个链接[百度网站](https://www.baidu.com)
+这是一个链接[百度网站](https://www.baidu.com)  <------  这是一个链接\[百度网站\]\(https://www.baidu.com\)
 # 图片
-![图片名字](https://www.zybuluo.com/static/img/logo.png)
+![图片名字](https://www.zybuluo.com/static/img/logo.png)  <------  \!\[图片名字\]\(https://www.zybuluo.com/static/img/logo.png\)
 # 代码
 ```python
 import cv2
