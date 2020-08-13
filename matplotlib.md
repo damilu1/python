@@ -2,7 +2,7 @@
 ### Matplotlib函数总结
 
 
-$$ kwargs与args
+**kwargs与args**
 ```python
 from matplotlib import pyplot as plt #导入matplotlib文件中的pyplot.py  (import matplotlib.pyplot as plt)
 
