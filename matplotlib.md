@@ -1,6 +1,6 @@
 # 记录Matplotlib笔记
 >## 一、Matplotlib函数总结：
-### 绘制条形图
+### 1.绘制条形图
 [Matplotlib中的颜色、线条、标记样式汇总(感谢知乎大佬-Mr.喵)](https://zhuanlan.zhihu.com/p/40992563)
 ```python
 from matplotlib import pyplot as plt #导入matplotlib文件中的pyplot.py画图模块  (import matplotlib.pyplot as plt)
@@ -16,6 +16,7 @@ plt.subplot(nrows, ncols, index)
 
 #绘制图像(横纵坐标，曲线格式，数据点格式，透明度)
 plt.plot(x, y, color, linestyle, linewidth, marker, markersize, markerfacecolor, alpha)
+
 #####################################################对绘图窗口进行操作##############################################
 my_font = font_manager.FontProperties(fname="C:\Windows\Fonts\SIMFANG.TTF") #采用系统文件中的中文格式
 #设置x轴的刻度（x轴刻度的取值，刻度的字符，刻度的旋转度数，设置中文字体）
@@ -45,7 +46,13 @@ plt.savefig("fname")
 plt.show() #展示图像
 
 ```
-### 绘制直方图
+### 2.绘制直方图
+
+```python
+from matplotlib import plot as plt
+
+
+```
 
 >## 二、Matplotlib相关问题：
 * \*args与\*\*kwargs之间的关系和区别？
