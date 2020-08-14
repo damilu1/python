@@ -46,7 +46,7 @@ plt.savefig("fname")
 plt.show() #展示图像
 
 ```
-### 2.绘制直方图
+### 2.绘制直方图、条形图、散点图
 
 ```python
 from matplotlib import plot as plt
