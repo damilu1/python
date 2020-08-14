@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt #导入matplotlib文件中的pyplot.py画�
 from matplotlib import font_manager #导入matplotlib文件中的font_manager.py字体管理模块
 
 
-#####################创建绘图窗口并绘制图像##########################
+##############################################创建绘图窗口并绘制图像###################################################
 #生成绘图窗口（图像名，图像大小，分辨率）
 plt.figure(num="int"or"str",figsize=(float,float), dpi=float)
 
@@ -14,7 +14,7 @@ plt.subplot(nrows, ncols, index)
 
 #绘制图像(横纵坐标，曲线格式，数据点格式，透明度)
 plt.plot(x, y, color, linestyle, linewidth, marker, markersize, markerfacecolor, alpha)
-############################对绘图窗口进行操作##########################
+#####################################################对绘图窗口进行操作##############################################
 my_font = font_manager.FontProperties(fname="C:\Windows\Fonts\SIMFANG.TTF") #采用系统文件中的中文格式
 #设置x轴的刻度（x轴刻度的取值，刻度的字符，刻度的旋转度数，设置中文字体）
 plt.xticks(range, _xticks_labels, rotation, FontProperties=my_font)
