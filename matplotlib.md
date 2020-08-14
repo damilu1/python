@@ -10,7 +10,7 @@ from matplotlib import font_manager #导入matplotlib文件中的font_manager.py
 plt.figure(num="int"or"str",figsize=(float,float), dpi=float)
 
 #绘制图像(横纵坐标，曲线格式，数据点格式，透明度)
-plt.plot(x, y, linestyle, linewidth, marker, markersize, markerfacecolor, alpha)
+plt.plot(x, y, color, linestyle, linewidth, marker, markersize, markerfacecolor, alpha)
 
 ############################对绘图窗口进行操作##########################
 my_font = font_manager.FontProperties(fname="C:\Windows\Fonts\SIMFANG.TTF") #采用系统文件中的中文格式
@@ -20,8 +20,8 @@ plt.xticks(range, _xticks_labels, rotation, FontProperties=my_font)
 #添加网格线（网格方向，格式，透明度）
 plt.grid(axis='x'or'y'or'both', color, linestyle, linewidth, alpha)
 
-#添加图例（图例名字，位置，字体大小，标题）
-plt.legend(['legendname'], loc, fontsize, title)
+#添加图例（图例名字，位置，字体大小，图例的中文格式，标题名）
+plt.legend(labels, loc, fontsize, prop=my_font, title)
 
 #添加水印（水印左下角坐标，水印内容，字体格式，透明度）
 plt.text(x, y, s, fontsize, color, alpha)
