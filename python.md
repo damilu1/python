@@ -1,6 +1,11 @@
 # 学习python知识，记录笔记
 >## 1.python函数总结
+1.Python 中 str.format() 
 
+```python
+
+
+```
 >## 2.python知识点总结
 `math模块`:
 
