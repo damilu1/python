@@ -2,9 +2,9 @@
 >## 1.python函数总结
 
 >## 2.python知识点总结
-### python自带模块
-    `math模块`:
-    `random模块`:
+`math模块`:
+
+`random模块`:
 
 
 >## 3.python相关的问题
