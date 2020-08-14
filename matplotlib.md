@@ -3,6 +3,7 @@
 ```python
 from matplotlib import pyplot as plt #导入matplotlib文件中的pyplot.py画图模块  (import matplotlib.pyplot as plt)
 from matplotlib import font_manager #导入matplotlib文件中的font_manager.py字体管理模块
+my_font = font_manager.FontProperties(fname="C:\Windows\Fonts\SIMFANG.TTF") #采用系统文件中的中文格式
 
 plt.figure(num="int"or"str",figsize=(float,float),dpi=float)    #设置图像窗口的参数（图像名字，图像大小，分辨率）
 
