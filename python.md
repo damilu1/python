@@ -3,7 +3,7 @@
 
 >## 2.python知识点总结
 ### python自带模块
-#### math模块
+math模块
 #### random模块
 #### 
 
