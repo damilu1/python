@@ -1,5 +1,7 @@
 # 记录Matplotlib笔记
 >## 一、Matplotlib函数总结：
+### 绘制条形图
+[Matplotlib中的颜色、线条、标记样式汇总(感谢知乎大佬-Mr.喵)](https://zhuanlan.zhihu.com/p/40992563)
 ```python
 from matplotlib import pyplot as plt #导入matplotlib文件中的pyplot.py画图模块  (import matplotlib.pyplot as plt)
 from matplotlib import font_manager #导入matplotlib文件中的font_manager.py字体管理模块
@@ -43,7 +45,7 @@ plt.savefig("fname")
 plt.show() #展示图像
 
 ```
-[Matplotlib中的颜色、线条、标记样式汇总(感谢知乎大佬-Mr.喵)](https://zhuanlan.zhihu.com/p/40992563)
+### 绘制直方图
 
 >## 二、Matplotlib相关问题：
 * \*args与\*\*kwargs之间的关系和区别？
