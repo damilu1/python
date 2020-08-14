@@ -9,13 +9,24 @@ from matplotlib import font_manager #导入matplotlib文件中的font_manager.py
 #生成绘图窗口（图像名，图像大小，分辨率）
 plt.figure(num="int"or"str",figsize=(float,float), dpi=float)
 
+#生成子绘图窗口（n行，n列，索引）
+plt.subplot(nrows, ncols, index)
+
 #绘制图像(横纵坐标，曲线格式，数据点格式，透明度)
 plt.plot(x, y, color, linestyle, linewidth, marker, markersize, markerfacecolor, alpha)
-
 ############################对绘图窗口进行操作##########################
 my_font = font_manager.FontProperties(fname="C:\Windows\Fonts\SIMFANG.TTF") #采用系统文件中的中文格式
-#设置x轴刻度（x刻度的范围，刻度的字符，刻度的旋转度数，设置中文字体）
+#设置x轴的刻度（x轴刻度的取值，刻度的字符，刻度的旋转度数，设置中文字体）
 plt.xticks(range, _xticks_labels, rotation, FontProperties=my_font)
+
+#对图像添加标题（标题名，格式，旋转角度，透明度，设置中文字体）
+plt.title(label, color, fontsize, fontweight, rotation, alpha, FontProperties=my_font)
+
+#设置x轴的名称(名称字符串，位置)
+plt.xlabel(xlabel="x-axes", loc='center')
+
+#设置x轴的范围
+plt.xlim(x_min,x_max)
 
 #添加网格线（网格方向，格式，透明度）
 plt.grid(axis='x'or'y'or'both', color, linestyle, linewidth, alpha)
@@ -26,7 +37,9 @@ plt.legend(labels, loc, fontsize, prop=my_font, title)
 #添加水印（水印左下角坐标，水印内容，字体格式，透明度）
 plt.text(x, y, s, fontsize, color, alpha)
 
-plt.savefig("fname")   #保存图像  在plt.show()之前调用plt.savefig(“路径文件名”)  相比jpg，svg放大后不会失真
+#保存图像  在plt.show()之前调用plt.savefig(“路径文件名”)  相比jpg，svg放大后不会失真
+plt.savefig("fname")
+
 plt.show() #展示图像
 
 ```
