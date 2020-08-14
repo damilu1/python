@@ -14,11 +14,11 @@ plt.plot(x, y, linestyle, linewidth, marker, markersize, markerfacecolor, alpha)
 
 ############################对绘图窗口进行操作##########################
 my_font = font_manager.FontProperties(fname="C:\Windows\Fonts\SIMFANG.TTF") #采用系统文件中的中文格式
-#设置x轴刻度（刻度的范围，刻度的标签，刻度的旋转度数，设置中文字体）
+#设置x轴刻度（x刻度的范围，刻度的字符，刻度的旋转度数，设置中文字体）
 plt.xticks(range, _xticks_labels, rotation, FontProperties=my_font)
 
 #添加网格线（网格方向，格式，透明度）
-plt.grid(axis='both', color='g', linestyle='-.', linewidth=1, alpha=0.7)
+plt.grid(axis='x'or'y'or'both', color, linestyle, linewidth, alpha)
 
 #添加图例（图例名字，位置，字体大小，标题）
 plt.legend(['legendname'], loc, fontsize, title)
