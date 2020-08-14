@@ -1,5 +1,5 @@
 # 记录Matplotlib笔记
-## Matplotlib函数总结：
+## 1.Matplotlib函数总结：
 ```python
 from matplotlib import pyplot as plt #导入matplotlib文件中的pyplot.py  (import matplotlib.pyplot as plt)
 
@@ -11,8 +11,8 @@ plt.show() #展示图像
 
 ```
 
->## Matplotlib相关问题：
-1.kwargs与args之间的关系？
+>## 2.Matplotlib相关问题：
+* kwargs与args之间的关系？
 
 
 
