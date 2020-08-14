@@ -7,7 +7,7 @@ from matplotlib import font_manager #导入matplotlib文件中的font_manager.py
 
 #创建绘图窗口并绘制图像
 plt.figure(num="int"or"str",figsize=(float,float), dpi=float)    #生成绘图窗口（图像名，图像大小，分辨率）
-plt.plot(x, y, linestyle, linewidth, marker, markersize, markerfillcolor, alpha)   #绘制图像(横纵坐标，曲线格式，数据点格式，透明度)
+plt.plot(x, y, linestyle, linewidth, marker, markersize, markerfacecolor, alpha)   #绘制图像(横纵坐标，曲线格式，数据点格式，透明度)
 
 #对绘图窗口进行操作
 my_font = font_manager.FontProperties(fname="C:\Windows\Fonts\SIMFANG.TTF") #采用系统文件中的中文格式
