@@ -24,7 +24,7 @@ plt.savefig("fname")   #保存图像  在plt.show()之前调用plt.savefig(“�
 plt.show() #展示图像
 
 ```
-[Matplotlib中的颜色、线条、标记样式汇总(感谢知乎大佬Mr.喵)](https://zhuanlan.zhihu.com/p/40992563)
+[Matplotlib中的颜色、线条、标记样式汇总(感谢知乎大佬-Mr.喵)](https://zhuanlan.zhihu.com/p/40992563)
 
 >## 二、Matplotlib相关问题：
 * \*args与\*\*kwargs之间的关系和区别？
