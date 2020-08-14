@@ -17,7 +17,11 @@ my_font = font_manager.FontProperties(fname="C:\Windows\Fonts\SIMFANG.TTF") #采
 #设置x轴刻度（刻度的范围，刻度的标签，刻度的旋转度数，设置中文字体）
 plt.xticks(range, _xticks_labels, rotation, FontProperties=my_font)
 
-#
+#添加网格线（网格方向，格式，透明度）
+plt.grid(axis='both', color='g', linestyle='-.', linewidth=1, alpha=0.7)
+
+#添加图例（图例名字，位置，字体大小，标题）
+plt.legend(['legendname'], loc, fontsize, title)
 
 #添加水印（水印左下角坐标，水印内容，字体格式，透明度）
 plt.text(x, y, s, fontsize, color, alpha)
