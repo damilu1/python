@@ -32,6 +32,9 @@ plt.bar(x, bottom, height, width, color, alpha, align='center'or'edge')
 #绘制横状条形图（起始纵坐标，起始横坐标，高度，宽度，颜色，透明度，标签相对条形的位置）
 plt.barh(y, left, width, height, color, alpha, align='center'or'edge')
 
+#绘制直方图
+
+
 #####################################################对绘图窗口进行操作##############################################
 my_font = font_manager.FontProperties(fname="C:\Windows\Fonts\SIMFANG.TTF") #采用系统文件中的中文格式
 #设置x轴的刻度（x轴刻度的取值，刻度的字符，刻度的旋转度数，设置中文字体）
