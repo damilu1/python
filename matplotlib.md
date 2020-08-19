@@ -11,13 +11,13 @@ from matplotlib import font_manager #导入matplotlib文件中的font_manager.py
 plt.figure(num="int"or"str",figsize=(float,float), dpi=float)
 
 #
-*fig.suptitle("draw some subplot")*
+*****fig.suptitle("draw some subplot")****
 
 #生成子绘图窗口（n行，n列，索引）
 plt.subplot(nrows, ncols, index)
 
 #
-*ax1.set_title("y1 = x")*
+****ax1.set_title("y1 = x")****
 
 #############################################绘制图像（曲线，散点，条形）###########################################
 #绘制曲线(横纵坐标，曲线格式，数据点格式，透明度
@@ -32,7 +32,7 @@ plt.bar(x, bottom, height, width, color, alpha, align='center'or'edge')
 #绘制横状条形图（起始纵坐标，起始横坐标，高度，宽度，颜色，透明度，标签相对条形的位置）
 plt.barh(y, left, width, height, color, alpha, align='center'or'edge')
 
-*#绘制直方图*
+****#绘制直方图****
 
 
 #####################################################对绘图窗口进行操作##############################################
