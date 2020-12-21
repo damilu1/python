@@ -13,3 +13,5 @@ print(x.ndim)   #打印数组x的维数
 ```
 #### numpy.ndarray与numpy.matrix的区别
 ndarray 可以是任意维数 mat只能是2维的
+
+
