@@ -3,7 +3,8 @@
 ### 1.绘制条形图
 [Matplotlib中的颜色、线条、标记样式汇总(感谢知乎大佬-Mr.喵)](https://zhuanlan.zhihu.com/p/40992563)
 ```python
-from matplotlib import pyplot as plt #导入matplotlib文件中的pyplot.py画图模块  (import matplotlib.pyplot as plt)
+from matplotlib import image as imgplt #导入matplotlib文件中的image.py图像处理模块  (import matplotlib.image as imgplt)
+from matplotlib import pyplot as plt #导入matplotlib文件中的pyplot.py绘图模块  (import matplotlib.pyplot as plt)
 from matplotlib import font_manager #导入matplotlib文件中的font_manager.py字体管理模块
 
 ###########################################创建绘图窗口并绘制图像#############################################
